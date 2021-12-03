@@ -31,6 +31,8 @@ def get_user() -> dict:
     user['senha'] = str(input('Digite sua senha: '))
     return user    
     
+    #mudando qualquer coisa
+    
     # DESAFIO 1: RESOLVER ESSE BUG! USEI ELSE: BREAKPOINT AONDE OBRIGA O USUÁRIO DIGITAR SEU NOME
     #PQ AO CONTRÁRIO DISSO O CADASTRO NÃO CONTINUA, AGORA MESMO ELE DIGITANDO E COLANCANDO OS 30 
     #CARACTERES QUE NÃO É PERMITIDO ELE TERA QUE COLOCAR A QUANTIDADE CORRETA, POIS SENÃO O CADASTRO
