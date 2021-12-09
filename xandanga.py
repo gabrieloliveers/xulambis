@@ -1,9 +1,9 @@
 import os
-import functions
+import create_user
     
 if __name__ == "__main__":
-    user = functions.get_user()
-    if functions.has_user(user):
+    user = create_user.get_user()
+    if create_user.has_user(user):
         print("E-mail já cadastrado seu filho da puta! Tenta outro desgraça!!!")
     else:
-        functions.insert_user(user)
+        create_user.insert_user(user)

@@ -26,8 +26,7 @@ def get_user() -> dict:
     #     else:
     #         break
 
-    user['data_nascimento'] = str(input('Data de nascimento: '))
-    user['email'] = str(input('Digite seu email: '))
+
     user['senha'] = str(input('Digite sua senha: '))
     return user    
     
